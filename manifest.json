@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Fb friends",
+  "version": "1.0",
+
+  "icons": {
+    "64": "icons/logo.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/logo.png",
+    "default_title": "Beastify",
+    "default_popup": "popup/index.html",
+    "browser_style": true
+  }
+
+}
